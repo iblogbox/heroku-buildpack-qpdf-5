@@ -7,7 +7,9 @@ indent() {
 echo "--------> Install qpdf 5.1.1"
 BUILD_DIR=$1
 VENDOR_DIR="vendor/qpdf"
-DOWNLOAD_BASE_PATH="http://us-west-2.clouds.archive.ubuntu.com/ubuntu/pool/main/q/qpdf"
+#DOWNLOAD_BASE_PATH="http://us-west-2.clouds.archive.ubuntu.com/ubuntu/pool/main/q/qpdf"
+DOWNLOAD_BASE_PATH="https://github.com/iblogbox/heroku-buildpack-qpdf-5/raw/master/compiled"
+
 LIB_DPKG=libqpdf13_5.1.1-1_amd64.deb
 BIN_DPKG=qpdf_5.1.1-1_amd64.deb
 
